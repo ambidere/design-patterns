@@ -6,4 +6,14 @@ sourceSets {
             srcDirs = ['src/patterns/']
         }
     }
+    
+    test {
+        java {
+            srcDirs = ['test/patterns/']
+        }
+    }
 }
+
+dependencies {
+    testCompile "junit:junit:4.11"
+}    
